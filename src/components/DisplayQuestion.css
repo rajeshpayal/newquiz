@@ -1,0 +1,77 @@
+.container {
+  background-color: gray;
+}
+.question-card {
+  margin: 0 auto;
+  width: 90%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 10px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.question-text {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: red;
+}
+
+.final-results {
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 90%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
